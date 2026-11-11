@@ -7,7 +7,7 @@ GEMINI_API_KEY = "AQ.Ab8RN6IsRm6KgSnDJ2hhHw4g3R0TKYknLOWyAJOfmGolrU-C8Q"
 
 MY_TELEGRAM_ID = 6109318639
 
-bot = telebot.TeleBot(6109318639)
+bot = telebot.TeleBot("9263178961:AAFN1YbgL4bg75HA78_CcR-ZyklZ227dsfE")
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
